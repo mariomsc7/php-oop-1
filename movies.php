@@ -5,6 +5,7 @@
 class Movie {
     
     //ATTRIBUTI
+    public $title;
     public $genre;
     public $year;
     public $director;
@@ -29,8 +30,9 @@ class Movie {
 
 // ISTANZA 1
 
-// $movie1 = new Movie('Star Wars', 'Fantascienza', '1977', 'George Lucas', 'Long time ago in a galaxy far far away..');
-// var_dump($movie1);
+//  $movie1 = new Movie('Star Wars', 'Fantascienza', '1977', 'George Lucas', 'Long time ago in a galaxy far far away..');
+
+//  var_dump($movie1);
 
 // $movie2 = new Movie('Lord of the Rings');
 
